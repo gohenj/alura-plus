@@ -172,3 +172,34 @@ body {
     background-color: var(--cor-hover);
     color: var(--cor-de-fundo);
 }
+@media screen and ( max-width: 760px) {
+    .container{
+        display:block;
+        background-image: none;
+    }
+    .imagem{
+        width: 50vw;
+    }
+    .div{
+        margin:2rem 2rem;
+    }
+    .container__secundario{
+        margin:0 0 3rem 0;
+        text-align:center;
+        display: block;
+       
+
+    }
+    .imagem__plataforma{
+        width: 50vw;
+
+    }
+    .lista__dispositivos{
+        display: block
+    }
+
+    .lista__footer{
+        display:block;
+        padding:3rem 0;
+    }
+}
